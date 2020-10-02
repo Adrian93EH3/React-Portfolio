@@ -17,7 +17,7 @@ function Navbar() {
                 <div className='navbar-container'>
                     <a href="https://www.linkedin.com/in/adrian-diaz-81044a1aa/" target="_blank" className='navbar-logo' onClick={closeMobileMenu}>
                         Linkedin
-            <i class="fab fa-linkedin-in"></i>
+                        <i class="fab fa-linkedin-in"></i>
                     </a>
                     <div className='menu-icon' onClick={handleClick}>
                         {/* Toggles between hamburger and X upon clicking  */}
@@ -26,27 +26,19 @@ function Navbar() {
                     {/* Toggles between showing the nav and not showing it  */}
                     <ul className={click ? 'nav-menu active' : 'nav-menu'}>
                         <li className='nav-item'>
-                            <Link to="/" className='nav-links' onClick={closeMobileMenu}>
+                            <Link to="/home" className='nav-links' onClick={closeMobileMenu}>
                                 Home
-              </Link>
+                            </Link>
                         </li>
                         <li className='nav-item'>
-                            <Link
-                                to='/portfolio'
-                                className='nav-links'
-                                onClick={closeMobileMenu}
-                            >
+                            <Link to='/portfolio' className='nav-links' onClick={closeMobileMenu}>
                                 Portfolio
-              </Link>
+                             </Link>
                         </li>
                         <li className='nav-item'>
-                            <Link
-                                to='/contact'
-                                className='nav-links'
-                                onClick={closeMobileMenu}
-                            >
+                            <Link to='/contact' className='nav-links' onClick={closeMobileMenu}>
                                 Contact Me
-              </Link>
+                            </Link>
                         </li>
                     </ul>
                 </div>
@@ -55,4 +47,4 @@ function Navbar() {
     )
 }
 
-export default Navbar
+export default Navbar;

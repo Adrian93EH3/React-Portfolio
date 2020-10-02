@@ -1,5 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import "./LandingPage.css"
 
 const LandingPage = () => {  
     return (
@@ -9,11 +10,10 @@ const LandingPage = () => {
                     <div className="content">
                         <h1>Adrian Diaz</h1>
                         <h3>Full Stack Web Developer</h3>
-                        <Link to="/home" className="button">ENTER!</Link>
+                        <Link to="/home" className="button">START!</Link>
                     </div>
                 </div>
             </div>
-            
         </div>
     )
 };

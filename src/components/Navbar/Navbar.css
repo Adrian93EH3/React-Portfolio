@@ -19,7 +19,7 @@
   }
   
   .navbar-logo {
-    color: #fff;
+    color:#f88379;
     justify-self: start;
     margin-left: 20px;
     cursor: pointer;
@@ -50,7 +50,7 @@
   }
   
   .nav-links {
-    color: #fff;
+    color: #aef;
     display: flex;
     align-items: center;
     text-decoration: none;
@@ -59,12 +59,16 @@
   }
   
   .nav-links:hover {
-    border-bottom: 4px solid #fff;
+    border-bottom: 4px solid  #f88379;
     transition: all 0.2s ease-out;
   }
   
   .fa-bars {
-    color: #fff;
+    color: #aef;
+  }
+
+  .fa-times:after {
+    color: #aef;
   }
   
   .nav-links-mobile {
@@ -131,7 +135,7 @@
     }
   
     .fa-times {
-      color: #fff;
+      color:#aef;
       font-size: 2rem;
     }
   
