@@ -16,7 +16,6 @@ function Navbar() {
             <nav className='navbar'>
                 <div className='navbar-container'>
                     <a href="https://www.linkedin.com/in/adrian-diaz-81044a1aa/" target="_blank" className='navbar-logo' onClick={closeMobileMenu}>
-                        Linkedin
                         <i class="fab fa-linkedin-in"></i>
                     </a>
                     <div className='menu-icon' onClick={handleClick}>
