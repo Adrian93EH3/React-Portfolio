@@ -7,7 +7,7 @@ function MainPage() {
     return (
         <div>
             <Navbar page="mainPage"/>
-            <Hero page="mainPage" />
+            {/* <Hero page="mainPage" /> */}
             {/* <Footer /> */}
         </div>
     )
