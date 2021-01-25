@@ -6,7 +6,7 @@ import Navbar from '../Navbar/Navbar';
 function MainPage() {
     return (
         <div>
-            <Navbar page="mainPage"/>
+            <Navbar/>
             {/* <Hero page="mainPage" /> */}
             {/* <Footer /> */}
         </div>
