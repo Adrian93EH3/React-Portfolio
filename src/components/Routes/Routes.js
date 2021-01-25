@@ -10,7 +10,7 @@ function routes() {
             <div>
                 <Route exact path='/' component={LandingPage} />
                 <Route exact path='/home' component={MainPage} />
-                <Route exact path='/portfolio' component={Portfolio}
+                <Route exact path='/portfolio' component={Portfolio}/>
             </div>
         </Router>
     )
