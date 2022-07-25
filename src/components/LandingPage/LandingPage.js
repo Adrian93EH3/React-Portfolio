@@ -9,7 +9,7 @@ function LandingPage() {
                 <div className="masthead">
                     <div className="content">
                         <h1>Adrian Diaz</h1>
-                        <h3>Full Stack Web Developer</h3>
+                        <h3>Front End Web Developer</h3>
                         <Link to="/home" className="button">START!</Link>
                     </div>
                 </div>
