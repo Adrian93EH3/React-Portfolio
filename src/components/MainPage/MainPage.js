@@ -1,14 +1,18 @@
 import React from 'react';
 import Navbar from '../Navbar/Navbar';
-// import Hero from '../Hero/Hero'
-// import Footer from '../Footer/Footer';
+import Projects from '../ProjectsOnDisplay/Projects';
 
 function MainPage() {
     return (
         <div>
-            <Navbar/>
+            <Navbar />
             {/* <Hero page="mainPage" /> */}
-            {/* <Footer /> */}
+            <Projects
+                imageSrc={""}
+                title={"Car Dealership"}
+                link={"https://emilyleonella.github.io/index.html"}
+                gitHubLink={"https://github.com/Emilyleonella/Emilyleonella.github.io"}
+            />
         </div>
     )
 };
