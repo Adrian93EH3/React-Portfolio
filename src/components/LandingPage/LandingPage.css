@@ -79,11 +79,16 @@
     animation-name: fadeInDown;
   }
   
-  @media (max-width: 320px) {
-    .content .button {
-      margin-left: 60px;
-    }
+ /* Portrait */
+@media (min-width: 375px) and (max-width: 812px) { 
+
+  .content .button {
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
   }
+
+}
 
   @media (min-width: 1024px) {
     .content .button {
