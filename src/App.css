@@ -7,9 +7,38 @@
   font-family: 'PT Sans', sans-serif;
 }
 
-.home,
-.portfolio,
-.contact {
+.images {
+  width: 90%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.project-title {
+  display: block;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  color: #aef;
+}
+
+.web-link-btn {
+  background-color: #f88379;
+  border-radius: 10px;
+  padding: 10px;
+  border-style: groove;
+  display: block;
+  text-decoration: none;
+  margin-left: auto;
+  margin-bottom: 20px;
+  margin-right: auto;
+}
+
+.web-link-btn:hover {
+  background-color: #aef;
+}
+
+.home {
   display: flex;
   height: 90vh;
   align-items: center;
@@ -17,20 +46,10 @@
   font-size: 3rem;
 }
 
-.portfolio {
-  background-image: url('/images/img-2.jpg');
-  background-position: center;
-  background-size: cover;
-  background-repeat: no-repeat;
-  color: #fff;
-  font-size: 100px;
-}
-
-.contact {
-  background-image: url('/images/img-1.jpg');
-  background-position: center;
-  background-size: fill;
-  background-repeat: no-repeat;
-  color: #fff;
-  font-size: 100px;
+.footer {
+  color: #aef;
+  display: block;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
 }

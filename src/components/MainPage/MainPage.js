@@ -6,6 +6,7 @@ import carDealership from '../../assets/images/carDealership.png';
 import weatherApp from '../../assets/images/weatherApp.png';
 import indecisiveCook from '../../assets/images/indecisiveCook.png';
 import weatherDashboard from '../../assets/images/weatherDashboard.png';
+import Footer from '../Footer/Footer';
 
 function MainPage() {
     return (
@@ -35,6 +36,7 @@ function MainPage() {
                 link={"https://adrian93eh3.github.io/Weather-Dashboard/"}
                 gitHubLink={"https://github.com/Adrian93EH3/Weather-Dashboard"}
             />
+            <Footer />
         </div>
     )
 };
