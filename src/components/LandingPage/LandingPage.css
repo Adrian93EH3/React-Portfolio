@@ -19,11 +19,14 @@
     border: 2px solid #aef;
     border-radius: 10px;
     padding-left: 12px;
-    padding-right: 67px;
+    padding-right: 63px;
     display: flex;
     margin-left: 111px;
   }
-  
+
+  .content .button:hover {
+    color: #aef;
+  }
   .wrapper {
     position: relative;
     height: 100vh;
