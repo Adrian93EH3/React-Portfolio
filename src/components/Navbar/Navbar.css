@@ -9,16 +9,17 @@
     top: 0;
     text-decoration: none;
     z-index: 2;
+    margin-left: -20px;
   }
   
-  .navbar-container {
+  /* .navbar-container {
     display: flex;
     justify-content: center;
     align-items: center;
     height: 80px;
     text-decoration: none;
     max-width: 1500px;
-  }
+  } */
   
   .navbar-logo {
     color:#f88379;

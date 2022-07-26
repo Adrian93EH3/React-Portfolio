@@ -1,4 +1,5 @@
 import React from 'react';
+import './MainPage.css';
 import Navbar from '../Navbar/Navbar';
 import Projects from '../ProjectsOnDisplay/Projects';
 import carDealership from '../../assets/images/carDealership.png';
@@ -8,7 +9,7 @@ import weatherDashboard from '../../assets/images/weatherDashboard.png';
 
 function MainPage() {
     return (
-        <div>
+        <div className="background">
             <Navbar />
             <Projects
                 imageSrc={carDealership}
